@@ -37,4 +37,4 @@ This project is licensed under the [License Name]. See the LICENSE file for more
 ## Contact
 - Author: Juri Jerg
 - Email: juri.jerg@hslu.ch
-- GitHub: MrJuri00
+- GitHub: mrjuri00
