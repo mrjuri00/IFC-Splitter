@@ -39,20 +39,6 @@ def ifcBuilding_analyze(input_file_path):
     return building_names
 
 
-### Analysiert IFC und gibt site_names aus, das ist eine Liste aller IfcSites.
-### Wird in der aktuellen Version nicht benötigt.
-"""
-def ifcSite_analyze(input_file_path):
-
-    file = ifcopenshell.open(input_file_path)
-    ifc_Sites = file.by_type("IfcSite")
-
-    site_names = [site.Name for site in ifc_Sites if site.Name is not None]
-
-    return site_names
-"""
-
-
 ### Analysiert IFC und gibt keys_list aus, das sind alle Elementtypen, die im IFC vorkommen.
 def ifcElement_analyze(input_file_path):
     
