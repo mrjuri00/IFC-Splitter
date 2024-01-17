@@ -3,6 +3,7 @@ import os
 
 
 
+
 ##### Im ifc_analyzer.py werden die relevanten Informationen des eingelesenen IFCs fürs GUI ausgelesen und verarbeitet.
 
 ### Analysiert IFC und gibt ifc_name, ifc_schema, ifc_size aus.

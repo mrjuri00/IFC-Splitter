@@ -4,6 +4,7 @@ import os
 
 
 
+
 ##### In Split_IfcBuilding.py wird die Patch-Funktion definiert, die ein IFC in einzelne Gebäude splittet und in einzelnen Dateien abspeichert.
 
 ### Hilfsfunktion, um zu prüfen, ob ein Element in einem Gebäude ist. Gibt True oder False zurück.

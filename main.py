@@ -7,6 +7,7 @@ import Splitter
 
 
 
+
 ##### In der main.py Datei wird das ganze GUI definiert und die Analyzer- und Splitter-Funktionen ausgeführt.
 
 ### Globale Variablen

@@ -4,6 +4,7 @@ import os
 
 
 
+
 ##### In Split_IfcBuildingStorey.py wird die Patch-Funktion definiert, die ein IFC in einzelne Stockwerke splittet und in einzelnen Dateien abspeichert.
 
 ### Hilfsfunktion, um zu prüfen, ob ein IfcSpace in einem Stockwerk ist. Gibt True oder False zurück.
@@ -85,18 +86,6 @@ def patch(input_file_path, output_path, export_storeys, callback_function, progr
             for space in new_ifc.by_type("IfcSpace"):
                 if not is_space_in_storey(space, storey):
                     new_ifc.remove(space)
-
-            # Soll auch die Storeys entfernen.. funktioniert noch nicht.
-            """
-            for i in storeys:
-                print(storeys)
-                if i == storey:
-                    print(f"{i.Name} wird in Ruhe gelassen.")
-                    continue
-                else:
-                    print(f"{i.Name} wird entfernt.")
-                    new_ifc.remove(i)
-            """
             
             # Speichere die neue IFC-Datei im Ausgabepfad
             new_ifc.write(dest_file_path)

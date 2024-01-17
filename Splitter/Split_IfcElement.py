@@ -4,6 +4,7 @@ import os
 
 
 
+
 ##### In Split_IfcElement.py wird die Patch-Funktion definiert, die ein IFC in einzelne IfcElement-Typen splittet und in einzelnen Dateien abspeichert.
 
 ### Patch-Funktion
