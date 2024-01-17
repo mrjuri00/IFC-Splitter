@@ -32,9 +32,9 @@ python main.py
 Contributions to this project are welcome. Please read CONTRIBUTING.md for details on submitting pull requests.
 
 ## License
-This project is licensed under the [License Name]. See the LICENSE file for more details.
+This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ## Contact
 - Author: Juri Jerg
 - Email: juri.jerg@hslu.ch
-- GitHub: MrJuri00
+- GitHub: mrjuri00
